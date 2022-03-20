@@ -1,0 +1,19 @@
+server:
+    port: 8082
+    servlet:
+      context-path: /ui-one
+
+security:
+  oauth2:
+    client:
+      clientId: pixeltrice
+      clientSecret: pixeltrice-secret-key
+      accessTokenUri: http://localhost:8080/ui/oauth/token
+      userAuthorizationUri: http://localhost:8080/ui/oauth/authorize
+      redirect-uri-template: http://localhost:8082/ui-one/find
+    resource:
+      userInfoUri: http://localhost:8080/ui/user/me
+      jwk-set-uri: http://localhost:8080/ui/token_key
+spring:
+  thymeleaf:
+    cache: false        
