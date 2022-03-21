@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Админ
+Build-Jdk: 11.0.13
+Implementation-Title: demo-client
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/demo-client
+Created-By: Maven Integration for Eclipse
+
