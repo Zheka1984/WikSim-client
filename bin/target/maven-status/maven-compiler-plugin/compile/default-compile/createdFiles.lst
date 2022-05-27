@@ -1,0 +1,12 @@
+Entities\Article.class
+Repository\FileRepository.class
+Controllers\FileController.class
+Controllers\ArticleValidator.class
+Entities\FileDB.class
+Repository\ArticleRepository.class
+Controllers\ArticleController.class
+Controllers\EqualFieldsValidator.class
+com\example\BasicApplication.class
+Controllers\EqualFields.class
+com\example\SecurityConfiguration.class
+Controllers\FindForm.class
